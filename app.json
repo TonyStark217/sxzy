@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d0333f",
+    "navigationBarTitleText": "主页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#d0333f"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "assets/home.png",
+        "selectedIconPath": "assets/home_click.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/category.png",
+        "selectedIconPath": "assets/category_click.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "个人",
+        "iconPath": "assets/info.png",
+        "selectedIconPath": "assets/info_click.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
